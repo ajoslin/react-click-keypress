@@ -1,0 +1,35 @@
+{
+  "name": "react-click-keypress",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Spread a click & enter/space key event on an element",
+  "license": "MIT",
+  "repository": "ajoslin/react-click-keypress",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "react",
+    "click",
+    "button",
+    "a11y",
+    "accessibility",
+    "keypress",
+    "enter",
+    "space",
+    "aria"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ]
+}
