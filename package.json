@@ -1,7 +1,7 @@
 {
   "name": "react-click-keypress",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Spread a click & enter/space key event on an element",
   "license": "MIT",
   "repository": "ajoslin/react-click-keypress",
