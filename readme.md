@@ -13,32 +13,20 @@ $ npm install --save react-click-keypress
 ## Usage
 
 ```js
-var reactClickKeypress = require('react-click-keypress')
+var clickKeyProps = require('react-click-keypress')
 
-reactClickKeypress('input')
-//=> output
+<div role='button' tabIndex='0' {...clickKeyProps(handleClick)} />
 ```
 
 ## API
 
-#### `reactClickKeypress(input, [options])` -> `output`
+#### `clickKeyProps(handler)` -> `props`
 
-##### input
+##### handler
 
-*Required*  
-Type: `string`
+An event handler. Takes a click event if click, key event if space/enter.
 
-Lorem ipsum.
-
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
+Returns a props object to spread onto a React element.
 
 ## License
 
