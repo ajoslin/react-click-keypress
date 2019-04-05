@@ -9,7 +9,8 @@ module.exports = function reactClickKeypressProps (handler) {
 
 function wrapKeypress (handler) {
   return function onKeypress (event) {
-    if (event.keyCode === 32 || event.keyCode === 13) {
+    var key = event.which || event.keyCode || 0
+    if (key === 32 || key === 13) {
       handler(event)
     }
   }
